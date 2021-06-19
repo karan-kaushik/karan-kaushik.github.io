@@ -22,4 +22,4 @@ setInterval(() => {
   if (panel_item === panels.length) {
     panel_item = 0;
   }
-}, 7000);
+}, 5000);
