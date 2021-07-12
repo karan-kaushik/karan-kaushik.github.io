@@ -1,0 +1,42 @@
+/* Global styles */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  display: block;
+  top: 10px;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.glasses-container {
+  display: inline-flex;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  border: 2px;
+}
